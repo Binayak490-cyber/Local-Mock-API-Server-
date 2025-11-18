@@ -1,2 +1,2 @@
-# Local-Mock-API-Server-
+# Local-Mock-API-Server
 OJT Project
