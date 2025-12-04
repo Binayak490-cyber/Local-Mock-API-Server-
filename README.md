@@ -2,7 +2,7 @@
 
 A flexible, feature-rich mock API server with a beautiful web interface for testing and development. Perfect for frontend development, API design, and learning REST principles.
 
-## ✨ Features
+## Features
 
 - **12 Working Endpoints** - Complete game store API
 - **Beautiful Dark Theme UI** - Professional developer-friendly interface  
@@ -13,7 +13,7 @@ A flexible, feature-rich mock API server with a beautiful web interface for test
 - **Template Engine** - Dynamic responses with query params
 - **CORS Support** - Ready for frontend integration
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Install dependencies
@@ -28,7 +28,7 @@ python main.py
 
 That's it! The beautiful web interface will open automatically.
 
-## 🎯 API Endpoints
+## API Endpoints
 
 ### Games API (6 endpoints)
 - `GET /api/games` - All games from database
@@ -42,7 +42,7 @@ That's it! The beautiful web interface will open automatically.
 - `POST /api/games/review?title=X&review=X` - Submit review
 - `POST /api/games/wishlist?title=X` - Add to wishlist
 
-### Wishlist Management (3 endpoints) ⭐
+### Wishlist Management (3 endpoints) 
 - `GET /api/games/wishlist` - View all wishlist items
 - `POST /api/games/wishlist?title=X` - Add game to wishlist
 - `DELETE /api/games/wishlist?title=X` - Remove from wishlist
@@ -54,7 +54,7 @@ That's it! The beautiful web interface will open automatically.
 - `GET /__logs` - View request history
 - `POST /__reload` - Hot-reload configuration
 
-## 🎨 Web Interface
+## Web Interface
 
 The web interface provides:
 - **Endpoint Browser** - All 12 endpoints with descriptions
@@ -63,7 +63,7 @@ The web interface provides:
 - **Status Monitor** - Real-time server health
 - **Dark Theme** - Easy on the eyes
 
-## 📝 Example Usage
+## Example Usage
 
 ### Using the Web Interface
 1. Open http://localhost:8000
@@ -93,7 +93,7 @@ curl -X DELETE "http://localhost:8000/api/games/wishlist?title=Fortnite"
 curl -X POST "http://localhost:8000/api/games/review?title=Minecraft&review=Great+game"
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 The server is configured via `config/config.json`. Each endpoint can specify:
 
@@ -128,7 +128,7 @@ Update `config.json` and reload without restart:
 curl -X POST http://localhost:8000/__reload
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 project/
@@ -152,7 +152,7 @@ project/
 └── requirements.txt            # Python dependencies
 ```
 
-## 🔧 Advanced Usage
+## Advanced Usage
 
 ### Custom Port
 ```bash
@@ -187,7 +187,7 @@ Set `failure_rate` (0.0 to 1.0) to randomly return errors:
 }
 ```
 
-## 📚 Documentation
+## Documentation
 
 - [QUICKSTART.md](QUICKSTART.md) - 5-minute tutorial
 - [docs/README.md](docs/README.md) - Detailed usage guide
@@ -197,7 +197,7 @@ Set `failure_rate` (0.0 to 1.0) to randomly return errors:
 - [config/API_ENDPOINTS.md](config/API_ENDPOINTS.md) - Endpoint documentation
 - [public/README.md](public/README.md) - Frontend documentation
 
-## 🎯 Use Cases
+## Use Cases
 
 - **Frontend Development** - Test UI without a real backend
 - **API Design** - Prototype and visualize API responses
@@ -205,14 +205,14 @@ Set `failure_rate` (0.0 to 1.0) to randomly return errors:
 - **Learning** - Understand REST principles and HTTP methods
 - **Integration Testing** - Mock external services
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run integration tests
 python server/test_server.py
 ```
 
-## ⚠️ Limitations
+## Limitations
 
 - **Mock Server** - Most endpoints return predefined responses
 - **Wishlist Only** - Only wishlist has real storage/modification
@@ -222,7 +222,7 @@ python server/test_server.py
 
 This is intentional - it's a mock server for testing, not a production database!
 
-## 📖 Learning Goals
+## Learning Goals
 
 - Build HTTP servers with Python's `http.server`
 - Understand REST API design patterns
@@ -230,14 +230,14 @@ This is intentional - it's a mock server for testing, not a production database!
 - Design ergonomic test doubles
 - Document API contracts
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to extend the configuration, add new endpoints, or enhance the frontend!
 
-## 📄 License
+## License
 
 MIT
 
 ---
 
-**Ready to test your APIs? Start the server and open http://localhost:8000** 🚀
+**Ready to test your APIs? Start the server and open http://localhost:8000** 
