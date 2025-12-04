@@ -1,4 +1,4 @@
-# 🎮 Game Store Mock API Server
+# Mock API Server
 
 A flexible, feature-rich mock API server with a beautiful web interface for testing and development. Perfect for frontend development, API design, and learning REST principles.
 
