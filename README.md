@@ -189,13 +189,10 @@ Set `failure_rate` (0.0 to 1.0) to randomly return errors:
 
 ## Documentation
 
-- [QUICKSTART.md](QUICKSTART.md) - 5-minute tutorial
-- [docs/README.md](docs/README.md) - Detailed usage guide
-- [docs/LEARNING.md](docs/LEARNING.md) - Learning guide & concepts
-- [docs/API_REFERENCE.md](docs/API_REFERENCE.md) - Complete API reference
-- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) - System architecture
+- [LEARNING docs.md](LEARNING%20docs.md) - Learning guide & concepts
+- [ARCHITECTURE docs.md](ARCHITECTURE%20docs.md) - System architecture
+- [LIMITATIONS docs.md](LIMITATIONS%20docs.md) - Known limitations
 - [config/API_ENDPOINTS.md](config/API_ENDPOINTS.md) - Endpoint documentation
-- [public/README.md](public/README.md) - Frontend documentation
 
 ## Use Cases
 
